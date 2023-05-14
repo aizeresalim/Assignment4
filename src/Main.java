@@ -7,6 +7,7 @@ class MyTestingClass{
     }
     @Override
     public int hashCode() {
+
         return Integer.hashCode(val);
     }
 }
